@@ -10,7 +10,8 @@ int main() {
         
     }
     
-
+    if ( n >= 5) {
     cout << n*n << endl;
+    }
     return 0;
 }
