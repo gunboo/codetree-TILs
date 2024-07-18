@@ -8,8 +8,8 @@ int main() {
     for (int i = 0; i < 5; i++) {
         cin >> num;
         if(num % 3 != 0) {
-            a = 0; 
-        } break;
+            a = 0; break;
+        } 
     }
     cout << a << endl;
     return 0;
