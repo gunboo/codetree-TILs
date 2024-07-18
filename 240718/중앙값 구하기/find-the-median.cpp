@@ -16,11 +16,14 @@ int main() {
         } 
      else {
         cout << c << endl;
-    } 
-    }
-    else if ( a < b) {
+    }}
+    else if (a < b) {
         if (b < c) {
             cout << b << endl;
+        } else if (a > c ) {
+            cout << a << endl;
+        } else {
+            cout << c << endl;
         }
     }
      
