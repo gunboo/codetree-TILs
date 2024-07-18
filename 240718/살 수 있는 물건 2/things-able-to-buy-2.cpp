@@ -9,8 +9,10 @@ int main() {
         cout << "book" << endl;
     } else if (money >= 1000 && money < 3000) {
         cout << "mask" << endl;
-    } else {
+    } else if(money >= 500 && money < 1000){
         cout << "pen" << endl;
+    } else {
+        cout << "no" << endl;
     }
     return 0;
 }
