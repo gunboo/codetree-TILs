@@ -5,10 +5,10 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    for (int i = a; i >= b; i--) {
-        if ( i % 2 == 0) {
-            cout << i << " ";
-        }
-    }
+   while (a >= b) {
+    cout << a << " ";
+    a -= 2;
+   }
+   
     return 0;
 }
