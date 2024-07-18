@@ -14,11 +14,8 @@ int main() {
     if (age >= 30) break;
     sum += age;
     cnt++;
-    
     }
     cout << sum / cnt << endl;
     
-
-
     return 0;
 }
