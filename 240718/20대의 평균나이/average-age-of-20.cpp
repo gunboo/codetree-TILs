@@ -8,14 +8,14 @@ int main() {
    
     cout << fixed;
     cout.precision(2);
-    
+
    while(1) {
     cin >> age;
-    if (age >= 30) break;
+    if (age < 20 || age >= 30) break;
     sum += age;
     cnt++;
     }
-    cout << sum / cnt << endl;
+    cout << sum / cnt;
     
     return 0;
 }
