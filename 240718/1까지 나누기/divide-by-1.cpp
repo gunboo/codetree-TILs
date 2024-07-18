@@ -5,9 +5,9 @@ int main() {
     int n;
     cin >> n;
 
-    int cnt = 1;
-    for (int i = 1; i <= n; i++) {
-        n /= i;
+    int cnt = 0;
+    for (int i = 1;  ; i++) {
+        n = n / i;
         cnt++;
         if(n <= 1) break;
     }
