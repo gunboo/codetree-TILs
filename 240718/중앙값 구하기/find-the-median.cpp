@@ -13,12 +13,18 @@ int main() {
         if (a > b) {
             cout << a << endl;
         }
-        }
+        } 
      else {
         cout << c << endl;
     } 
+    }
+    else if ( a < b) {
+        if (b < c) {
+            cout << b << endl;
+        }
+    }
      
 
-      }
+      
     return 0;
 }
