@@ -2,11 +2,12 @@
 using namespace std;
 
 int main() {
-    int n;
+    int n,a = 0;
     cin >> n;
 
-    for ( int i = 0; i < n; i ++) {
+    while (a != n) {
         cout << "*" << endl;
+        a++;
     }
     return 0;
 }
