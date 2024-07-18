@@ -5,12 +5,12 @@ using namespace std;
 int main() {
     string a;
     cin >> a;
-    string temp; 
+    string temp;
 
     for (int i = 0; i < 4; i++) {
-        temp = a[i+4];
+        temp[i] = a[i+4];
         a[i+4] = a[i + 9];
-        a[i+9] = temp;
+        a[i+9] = temp[i];
     }
     cout << a;
     
