@@ -19,7 +19,7 @@ int main()
             cout << endl;
         }
     for (int i = 0; i < n - 1; i++) { //줄개수
-        if (i == n - 2) {
+        for (int k = 0; k < i; k++) { //공백 0,1,2
             cout << " ";
         }
         for (int j = 0; j < (n-1)-i ; j++) { //2-->1
