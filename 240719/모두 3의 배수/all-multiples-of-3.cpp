@@ -9,7 +9,7 @@ int main() {
         cin >> num;
         if(num % 3 == 0) {
             a = 1;
-        }
+        } else a = 0;
     }
     cout << a << endl;
     return 0;
