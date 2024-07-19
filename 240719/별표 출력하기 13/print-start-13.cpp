@@ -5,38 +5,20 @@ int main() {
     int n;
     cin >> n;
 
-    int up = 1,down = n;
-    for (int i = 0; i < n; i++) { //줄 출력
-            if (i % 2 == 0) { //짝수
-            for (int j = 0; j < down; j++) { //n --> n-1 --> n-2
-                cout << "* ";
-            }
-            down--;
-        }   if (i % 2 == 1) {
-            for (int k = 0; k < up; k++) { //1 --> 2 --> 3
+    int up = 1, down = n;
+    for (int i = 0; i < 2*n; i++) {
+        if(i % 2 == 0) { //짝수일떄
+        for (int j = 0; j < down; j++) {
+            cout << "* ";
+        }down--;
+        }
+        if( i % 2 == 1) { //홀수일때
+            for(int k = 0; k < up; k++) {
                 cout << "* ";
             }
             up++;
         }
-            cout << endl;
-    }
-   
-    int up1 = up, down1 = down;
-    for (int i = 0; i < up1; i++) {
-        if ( i % 2 == 0) { //짝수
-            for (int j = 0; j < up1; j++) {
-                cout << "* ";
-            }
-            up1++;
-        }
-        if(i % 2 == 1) { //홀수
-        for (int k = 0; k < down1; k++) {
-            cout << "* ";
-        }
-        down1--;
-        }
         cout << endl;
     }
-   
     return 0;
 }
