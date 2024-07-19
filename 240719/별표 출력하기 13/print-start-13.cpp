@@ -20,8 +20,9 @@ int main() {
         }
             cout << endl;
     }
-    int up1 = 3, down1 = 2;
-    for (int i = 0; i < n; i++) {
+   
+    int up1 = up, down1 = down;
+    for (int i = 0; i < up1; i++) {
         if ( i % 2 == 0) { //짝수
             for (int j = 0; j < up1; j++) {
                 cout << "* ";
@@ -36,5 +37,6 @@ int main() {
         }
         cout << endl;
     }
+   
     return 0;
 }
