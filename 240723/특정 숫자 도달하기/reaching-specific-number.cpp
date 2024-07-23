@@ -12,7 +12,8 @@ int main() {
     double avg = 0;
     int num = 0;
 
-    for(int i = 0; i < 9; i++) {
+    for(int i = 0; i < 10; i++
+    ) {
         if (arr[i] >= 250) break;
         sum += arr[i];
         num++;
