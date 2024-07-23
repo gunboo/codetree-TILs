@@ -10,7 +10,7 @@ int main() {
         if(num[i] == 0) break;
         count++;
     }
-    for(int i = count - 1; i >= count - 4; i--) {
+    for(int i = count; i >= count - 3; i--) {
         sum += num[i];
     }
     cout << sum;
