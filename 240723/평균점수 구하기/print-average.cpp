@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int score[8];
+    double score[8];
     double sum = 0;
     double avg = 0;
 
