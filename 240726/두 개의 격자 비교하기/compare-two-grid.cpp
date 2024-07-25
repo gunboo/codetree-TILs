@@ -6,7 +6,7 @@ int main() {
     cin >> n >> m;
     int arr1[n][m];
     int arr2[n][m];
-    int arr3[n][m];
+    int arr3[n][m] = {};
     for(int i = 0; i < n; i++) {//arr1입력받기
         for(int j = 0; j < m; j++) {
             cin >> arr1[i][j];
