@@ -7,15 +7,20 @@ int main() {
     char a;
     cin >> a;
     int num = 0;
-    int num1 = 0;
     for(int i = 0; i < 5; i++) {
-        for(int j = 0; j < arr[i].length(); j++ ) {
+        for(int j = 2; j <= 3; j++ ) {
             if(arr[i][j] == a) {
+                cout << arr[i] << endl;
+                num++;
             }
         }
-
     }
-
     cout << num;
     return 0;
+}
+for(int i = 0; i < 5; i++) {
+    if(arr[i][2] == a || arr[i][3] == a) {
+        cout << arr[i] << endl;
+        num++;
+    }
 }
