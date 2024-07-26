@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 int main() {
@@ -11,24 +12,9 @@ int main() {
     a = a1.length();
     b = a2.length();
     c = a3.length();
-    if(a > b && b > c) {
-        cout << a - c;
-    }
-    else if(a > c && c > b) {
-        cout << a - b;
-    }
-    else if(b > a && a > c) {
-        cout << b - c;
-    }
-    else if(b > c && c > a) {
-        cout << b - a;
-    }
-    else if (c > a && a > b) {
-        cout << c - b;
-    }
-    else {
-        cout << c - a;
-    }
     
+    int max_len =  max({a,b,c});
+    int min_len = min({a,b,c});
+    cout << max_len - min_len;
     return 0;
 }
