@@ -15,6 +15,9 @@ int main() {
         if (str[i][len-1] == a) {
             cout << str[i] << endl;
         }
+        else {
+            cout << "None";
+        }
     }
     return 0;
 }
