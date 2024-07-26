@@ -12,7 +12,7 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         int len = str[i].length();
-        if (str[i][len-1] == 'e') {
+        if (str[i][len-1] == a) {
             cout << str[i] << endl;
         }
     }
