@@ -8,8 +8,7 @@ int main() {
         cout << "a";
     }
     else {
-        int b = (int)a + 1;
-        cout << (char)b;
+        cout << (char)(a+1);
     }
     return 0;
 }
