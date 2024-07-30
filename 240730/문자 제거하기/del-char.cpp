@@ -10,10 +10,10 @@ int main() {
 
     while(a.length() > 1) {
         cin >> num;
-        if(num > a.length()) {
+        if(num >= a.length()) {
             a.erase(a.length()-1,1);
         }
-        else if(num >= 0) {
+        else if(num >= 0 && num < a.length()) {
         a.erase(num,1);
         }
         cout << a << endl;
