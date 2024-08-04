@@ -1,12 +1,8 @@
 #include <iostream>
 using namespace std;
 bool number(int a) {
-    if(a % 2 == 0 && ((a / 10) + (a % 10)) % 5 == 0) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    return a % 2 == 0 && ((a / 10) + (a % 10)) % 5 == 0;
+     
 }
 int main() {
     int n;
